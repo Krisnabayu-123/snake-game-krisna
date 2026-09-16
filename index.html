@@ -1,0 +1,75 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Mini Project Snake</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css">
+</head>
+
+<body>
+
+    <div class="game-container">
+
+        <canvas
+            id="gameCanvas"
+            width="800"
+            height="600">
+        </canvas>
+
+
+        <!-- GAME OVER -->
+
+        <div
+            id="gameOver"
+            class="game-over">
+
+            <h1>GAME OVER</h1>
+
+            <p>
+                Skor kamu:
+                <span id="finalScore">0</span>
+            </p>
+
+            <button id="restartButton">
+                COBA LAGI
+            </button>
+
+        </div>
+
+
+        <!-- JOYSTICK -->
+
+        <div class="joystick">
+
+            <div
+                id="joystickBase"
+                class="joystick-base">
+
+                <div
+                    id="joystickKnob"
+                    class="joystick-knob">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```
